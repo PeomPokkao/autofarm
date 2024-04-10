@@ -57,9 +57,9 @@ end)
 
 Section:NewToggle("AuToFaRm", "Click?", function(v)
 
-    _G.AUTOFARM = true
+    _G.AUTOFARM = v
 
-_G.By_Pass = true
+_G.By_Pass = v
 
 getgenv().ToTargets = function(p)
     task.spawn(function()
