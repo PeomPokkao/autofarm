@@ -1,6 +1,6 @@
 _G.AUTOFARM = true
 
-_G.By_Pass = true
+_G.By_Pass = false
 
 getgenv().ToTargets = function(p)
     task.spawn(function()
